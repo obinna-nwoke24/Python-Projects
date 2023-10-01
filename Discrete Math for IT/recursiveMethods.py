@@ -1,3 +1,21 @@
+# practical applications below
+
+def outstandingBalanceFromCarLoan(n):
+    """
+    An individual takes out a $20,000 car loan.
+    The annual interest rate for the loan is 3%.
+    He wishes to make a monthly payment of $500.
+    Define an to be the amount of outstanding debt after n months.
+    :param n:
+    :return:
+    """
+    if n == 0:
+        return 20000
+    else:
+        return round(1.0025 * outstandingBalanceFromCarLoan(n - 1) - 500, 0)
+
+
+# Regular problems below
 def problem1(n):
     """
     f sub 0 = 4
@@ -56,3 +74,5 @@ def problem4(n):
 
 
 print(problem1(3), problem2(3), problem3(3), problem4(3))
+# below shows the outstanding balance from the car loan after paying for n months
+print(outstandingBalanceFromCarLoan(3))
