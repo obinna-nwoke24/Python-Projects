@@ -1,0 +1,22 @@
+{
+    "ADMIN": {
+        "User": "ADMIN",
+        "High Score": 8
+    },
+    "TEST1": {
+        "User": "TEST1",
+        "High Score": 2
+    },
+    "TEST2": {
+        "User": "TEST2",
+        "High Score": 11
+    },
+    "TEST3": {
+        "User": "TEST3",
+        "High Score": 3
+    },
+    "TEST4": {
+        "User": "TEST4",
+        "High Score": 6
+    }
+}
