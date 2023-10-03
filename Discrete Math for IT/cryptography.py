@@ -15,5 +15,3 @@ def encrypt(text):
         encryptedMessage += str(keySwapped[letter])
     return encryptedMessage
 
-
-print(encrypt("random text"))
